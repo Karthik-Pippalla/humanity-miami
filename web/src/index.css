@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", sans-serif;
+  --font-display: "Fraunces", serif;
+  --color-navy: #0b1c33;
+  --color-ink: #0b1c33;
+  --color-coral: #f07850;
+  --color-foam: #fff1ea;
+  --color-line: #e3e8ef;
+  --color-amber: #e2b043;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-navy);
+  color: #fff;
+  font-family: var(--font-sans);
+}
+
+.pac-container {
+  z-index: 10000;
+  font-family: var(--font-sans);
+  border-radius: 12px;
+  margin-top: 4px;
+  border: 1px solid var(--color-line);
+}
+
+.logo-draw path,
+.logo-draw circle {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: logo-trace 3.6s ease-in-out infinite;
+  animation-delay: calc(var(--i) * 0.12s);
+}
+
+.logo-draw .logo-dot {
+  fill-opacity: 0;
+  animation:
+    logo-trace 3.6s ease-in-out infinite,
+    logo-dot 3.6s ease-in-out infinite;
+  animation-delay: calc(var(--i) * 0.12s);
+}
+
+.logo-draw .logo-wordmark {
+  opacity: 0;
+  animation: logo-ink 3.6s ease-in-out infinite;
+}
+
+@keyframes logo-trace {
+  0% { stroke-dashoffset: 1; }
+  42% { stroke-dashoffset: 0; }
+  76% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: 1; }
+}
+
+@keyframes logo-dot {
+  0%, 48% { fill-opacity: 0; }
+  64%, 82% { fill-opacity: 1; }
+  100% { fill-opacity: 0; }
+}
+
+@keyframes logo-ink {
+  0%, 52% { opacity: 0; }
+  64%, 84% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-draw path,
+  .logo-draw circle,
+  .logo-draw .logo-wordmark,
+  .logo-draw .logo-dot {
+    animation: none;
+    stroke-dashoffset: 0;
+    opacity: 1;
+    fill-opacity: 1;
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "source" : "\/Users\/karthikpippalla\/Downloads\/humanity miami\/ios\/MapMiami\/CompareRoutesIntent.swift",
+  "tables" : {
+    "AppShortcuts" : [
+      {
+        "appShortcutMetadata" : [
+          {
+            "actionIdentifier" : "CompareRoutesIntent",
+            "index" : 0,
+            "parameterDisplayRepresentations" : {
+
+            },
+            "parameterTypes" : {
+
+            },
+            "title" : "Compare a flood-aware route"
+          }
+        ],
+        "key" : "Compare a flood-aware route in ${applicationName}",
+        "location" : {
+          "startingColumn" : 0,
+          "startingLine" : 39
+        },
+        "values" : [
+          "Compare a flood-aware route in ${applicationName}"
+        ]
+      },
+      {
+        "appShortcutMetadata" : [
+          {
+            "actionIdentifier" : "DescribeSelectedRouteIntent",
+            "index" : 1,
+            "parameterDisplayRepresentations" : {
+
+            },
+            "parameterTypes" : {
+
+            },
+            "title" : "Describe this route"
+          }
+        ],
+        "key" : "Describe this route in ${applicationName}",
+        "location" : {
+          "startingColumn" : 0,
+          "startingLine" : 39
+        },
+        "values" : [
+          "Describe this route in ${applicationName}"
+        ]
+      }
+    ]
+  },
+  "version" : 2
+}

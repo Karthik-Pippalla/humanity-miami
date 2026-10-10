@@ -1,0 +1,8 @@
+Target dependency graph (4 targets)
+Target 'MapMiami' in project 'MapMiami'
+➜ Explicit dependency on target 'MapMiamiWidgets' in project 'MapMiami'
+➜ Explicit dependency on target 'MapMiamiWatch' in project 'MapMiami'
+Target 'MapMiamiWatch' in project 'MapMiami'
+➜ Explicit dependency on target 'MapMiamiWatchWidgets' in project 'MapMiami'
+Target 'MapMiamiWatchWidgets' in project 'MapMiami' (no dependencies)
+Target 'MapMiamiWidgets' in project 'MapMiami' (no dependencies)

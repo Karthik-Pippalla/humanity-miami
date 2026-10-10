@@ -1,0 +1,89 @@
+{
+  "" : {
+    "diagnostics" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/MapMiamiWatchWidgets-primary.dia",
+    "emit-module-dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/MapMiamiWatchWidgets-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/MapMiamiWatchWidgets-primary-emit-module.dia",
+    "pch" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/MapMiamiWatchWidgets-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/MapMiamiWatchWidgets-primary.swiftdeps"
+  },
+  "/Users/karthikpippalla/Downloads/humanity miami/ios/MapMiamiWatchWidgets/WatchFloodWidget.swift" : {
+    "const-values" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/WatchFloodWidget.swiftconstvalues",
+    "dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/WatchFloodWidget.d",
+    "diagnostics" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/WatchFloodWidget.dia",
+    "index-unit-output-path" : "/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/WatchFloodWidget.o",
+    "llvm-bc" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/WatchFloodWidget.bc",
+    "object" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/WatchFloodWidget.o",
+    "swift-dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/WatchFloodWidget.swiftdeps",
+    "swiftmodule" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/WatchFloodWidget~partial.swiftmodule"
+  },
+  "/Users/karthikpippalla/Downloads/humanity miami/ios/Shared/APIClient.swift" : {
+    "const-values" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/APIClient.swiftconstvalues",
+    "dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/APIClient.d",
+    "diagnostics" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/APIClient.dia",
+    "index-unit-output-path" : "/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/APIClient.o",
+    "llvm-bc" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/APIClient.bc",
+    "object" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/APIClient.o",
+    "swift-dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/APIClient.swiftdeps",
+    "swiftmodule" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/APIClient~partial.swiftmodule"
+  },
+  "/Users/karthikpippalla/Downloads/humanity miami/ios/Shared/APIModels.swift" : {
+    "const-values" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/APIModels.swiftconstvalues",
+    "dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/APIModels.d",
+    "diagnostics" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/APIModels.dia",
+    "index-unit-output-path" : "/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/APIModels.o",
+    "llvm-bc" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/APIModels.bc",
+    "object" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/APIModels.o",
+    "swift-dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/APIModels.swiftdeps",
+    "swiftmodule" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/APIModels~partial.swiftmodule"
+  },
+  "/Users/karthikpippalla/Downloads/humanity miami/ios/Shared/FloodStatusView.swift" : {
+    "const-values" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/FloodStatusView.swiftconstvalues",
+    "dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/FloodStatusView.d",
+    "diagnostics" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/FloodStatusView.dia",
+    "index-unit-output-path" : "/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/FloodStatusView.o",
+    "llvm-bc" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/FloodStatusView.bc",
+    "object" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/FloodStatusView.o",
+    "swift-dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/FloodStatusView.swiftdeps",
+    "swiftmodule" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/FloodStatusView~partial.swiftmodule"
+  },
+  "/Users/karthikpippalla/Downloads/humanity miami/ios/Shared/FloodTimeline.swift" : {
+    "const-values" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/FloodTimeline.swiftconstvalues",
+    "dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/FloodTimeline.d",
+    "diagnostics" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/FloodTimeline.dia",
+    "index-unit-output-path" : "/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/FloodTimeline.o",
+    "llvm-bc" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/FloodTimeline.bc",
+    "object" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/FloodTimeline.o",
+    "swift-dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/FloodTimeline.swiftdeps",
+    "swiftmodule" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/FloodTimeline~partial.swiftmodule"
+  },
+  "/Users/karthikpippalla/Downloads/humanity miami/ios/Shared/JSONValue.swift" : {
+    "const-values" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/JSONValue.swiftconstvalues",
+    "dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/JSONValue.d",
+    "diagnostics" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/JSONValue.dia",
+    "index-unit-output-path" : "/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/JSONValue.o",
+    "llvm-bc" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/JSONValue.bc",
+    "object" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/JSONValue.o",
+    "swift-dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/JSONValue.swiftdeps",
+    "swiftmodule" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/JSONValue~partial.swiftmodule"
+  },
+  "/Users/karthikpippalla/Downloads/humanity miami/ios/Shared/ScoreNote.swift" : {
+    "const-values" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/ScoreNote.swiftconstvalues",
+    "dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/ScoreNote.d",
+    "diagnostics" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/ScoreNote.dia",
+    "index-unit-output-path" : "/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/ScoreNote.o",
+    "llvm-bc" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/ScoreNote.bc",
+    "object" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/ScoreNote.o",
+    "swift-dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/ScoreNote.swiftdeps",
+    "swiftmodule" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/ScoreNote~partial.swiftmodule"
+  },
+  "/Users/karthikpippalla/Downloads/humanity miami/ios/Shared/TripPlanning.swift" : {
+    "const-values" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/TripPlanning.swiftconstvalues",
+    "dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/TripPlanning.d",
+    "diagnostics" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/TripPlanning.dia",
+    "index-unit-output-path" : "/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/TripPlanning.o",
+    "llvm-bc" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/TripPlanning.bc",
+    "object" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/TripPlanning.o",
+    "swift-dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/TripPlanning.swiftdeps",
+    "swiftmodule" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-watchos/MapMiamiWatchWidgets.build/Objects-normal/arm64/TripPlanning~partial.swiftmodule"
+  }
+}

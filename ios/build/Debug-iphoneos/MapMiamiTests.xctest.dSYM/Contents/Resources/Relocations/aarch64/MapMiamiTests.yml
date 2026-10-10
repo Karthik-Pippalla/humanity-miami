@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/karthikpippalla/Downloads/humanity miami/ios/build/Debug-iphoneos/MapMiamiTests.xctest/MapMiamiTests'
+relocations:     []
+...

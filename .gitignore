@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.env.local
+backend/.venv/
+backend/data/
+**/__pycache__/
+**/.pytest_cache/
+web/node_modules/
+web/dist/
+*.sqlite
+firebase-debug.log
+.firebaserc
+ios/**/xcuserdata/
+ios/DerivedData/

@@ -1,0 +1,47 @@
+apiVersion: ssu/v1
+nlu:
+  shortcuts:
+    bundleIdentifier: app.mapmiami.ios
+    intents:
+    - metadata:
+        name: CompareRoutesIntent_0
+        title: Compare a flood-aware route
+      corpuses:
+        training:
+        - locale: en
+          utterances:
+          - '{${+prefix} }Compare a flood-aware route in ${+applicationName}'
+    - metadata:
+        name: DescribeSelectedRouteIntent_1
+        title: Describe this route
+      corpuses:
+        training:
+        - locale: en
+          utterances:
+          - '{${+prefix} }Describe this route in ${+applicationName}'
+    - metadata:
+        name: +negative
+      corpuses:
+        training:
+        - locale: en
+          utterances:
+          - '{${+prefix} }${+standardAppShortcutNegatives}'
+variables:
+- name: +applicationName
+  type: ssu/expansion
+  definitions:
+  - locale: en
+    synomyms:
+    - Map Miami
+- name: +prefix
+  type: ssu/expansion
+  definitions:
+  - locale: en
+    synomyms:
+      $ref: ssu://Resources/prefix/en.yaml
+- name: +standardAppShortcutNegatives
+  type: ssu/expansion
+  definitions:
+  - locale: en
+    synomyms:
+      $ref: ssu://Resources/standardAppShortcutNegatives/en.yaml

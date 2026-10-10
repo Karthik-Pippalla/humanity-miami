@@ -1,0 +1,23 @@
+{
+  "/Users/karthikpippalla/Downloads/humanity miami/ios/MapMiami/CarPlayMapPanel.swift" : {
+    "const-values" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-iphoneos/MapMiami.build/Objects-normal/arm64/CarPlayMapPanel.swiftconstvalues",
+    "dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-iphoneos/MapMiami.build/Objects-normal/arm64/CarPlayMapPanel.d",
+    "diagnostics" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-iphoneos/MapMiami.build/Objects-normal/arm64/CarPlayMapPanel.dia",
+    "object" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-iphoneos/MapMiami.build/Objects-normal/arm64/CarPlayMapPanel.o",
+    "swift-dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-iphoneos/MapMiami.build/Objects-normal/arm64/CarPlayMapPanel.swiftdeps"
+  },
+  "/Users/karthikpippalla/Downloads/humanity miami/ios/Shared/APIClient.swift" : {
+    "const-values" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-iphoneos/MapMiami.build/Objects-normal/arm64/APIClient.swiftconstvalues",
+    "dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-iphoneos/MapMiami.build/Objects-normal/arm64/APIClient.d",
+    "diagnostics" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-iphoneos/MapMiami.build/Objects-normal/arm64/APIClient.dia",
+    "object" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-iphoneos/MapMiami.build/Objects-normal/arm64/APIClient.o",
+    "swift-dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-iphoneos/MapMiami.build/Objects-normal/arm64/APIClient.swiftdeps"
+  },
+  "/Users/karthikpippalla/Downloads/humanity miami/ios/Shared/APIModels.swift" : {
+    "const-values" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-iphoneos/MapMiami.build/Objects-normal/arm64/APIModels.swiftconstvalues",
+    "dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-iphoneos/MapMiami.build/Objects-normal/arm64/APIModels.d",
+    "diagnostics" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-iphoneos/MapMiami.build/Objects-normal/arm64/APIModels.dia",
+    "object" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-iphoneos/MapMiami.build/Objects-normal/arm64/APIModels.o",
+    "swift-dependencies" : "/Users/karthikpippalla/Downloads/humanity miami/ios/build/MapMiami.build/Debug-iphoneos/MapMiami.build/Objects-normal/arm64/APIModels.swiftdeps"
+  }
+}

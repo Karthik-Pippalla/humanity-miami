@@ -1,0 +1,931 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E71147DF716FFD8C2E6293 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7204933680344556B09DA /* APIModels.swift */; };
+		0E8EA9E2041FF662F0479906 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7204933680344556B09DA /* APIModels.swift */; };
+		101F67B8E06D09D80ED1C50D /* CompareRoutesIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0024C1F806B5295380DF6773 /* CompareRoutesIntent.swift */; };
+		113931BEC92ED6521AFAD001 /* TripPlanning.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9F21F9F91C6C6889A7C9A /* TripPlanning.swift */; };
+		1E644F5F5668961D88F88649 /* FloodWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEED8EE16DC271F452AB0564 /* FloodWidget.swift */; };
+		21A4FE429604C387FD6610C2 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B24EA499229C97A5DC00E /* APIClient.swift */; };
+		2630E9641CF9AC4D01CFD351 /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92767010CECCAB8BBB5DA5AD /* JSONValue.swift */; };
+		29E0D4EC9DDBD1C49745A0B0 /* FloodTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52446CD178016436D49DFE3C /* FloodTimeline.swift */; };
+		350F9803B575B56DC1E9FAFD /* TripActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B5740464D2CD5517C2E568 /* TripActivity.swift */; };
+		378D95B40BA18AB296085055 /* MapMiamiWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0ED51FBA9815AD81C9A5BC2 /* MapMiamiWidgets.swift */; };
+		39817789A98C87B17A84D96E /* MapMiamiWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7E3730F812896A2C07D8DDF6 /* MapMiamiWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3E38EA9720CAA6E3E8207BCB /* MapMiamiWatchWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 568FCD0091D09C8946C4965E /* MapMiamiWatchWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		48EB6CBE4834660BCBC3CBB6 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B24EA499229C97A5DC00E /* APIClient.swift */; };
+		52A9DA9E63A49F98CB81587C /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7204933680344556B09DA /* APIModels.swift */; };
+		5A68493E0CFFAF5738F19071 /* TripPlanning.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9F21F9F91C6C6889A7C9A /* TripPlanning.swift */; };
+		5F265D976C7AB35F2CD3E6C7 /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92767010CECCAB8BBB5DA5AD /* JSONValue.swift */; };
+		61BA3B448DF0267AFC3C2BA4 /* TripActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B5740464D2CD5517C2E568 /* TripActivity.swift */; };
+		6892446372E051F3D54270BA /* LiveTripPlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F98ED07B9774B6F6012C59 /* LiveTripPlanner.swift */; };
+		75661CB8AC3A1756CF416A04 /* PlaceSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456B20D90DAAA37C6A14485C /* PlaceSearch.swift */; };
+		76D1FF38C53EF7F70AC33403 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B24EA499229C97A5DC00E /* APIClient.swift */; };
+		78EA7499D70BB4DD174C9C1C /* CarPlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CE36070870002DF2537098 /* CarPlayScene.swift */; };
+		79B10170E26F454C44EAFBE6 /* WatchFloodWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C24306B54C54CEE907B31D4 /* WatchFloodWidget.swift */; };
+		7DADDFD8E62F9DCB3883F78D /* FloodStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6583C337343C41D9282E274A /* FloodStatusView.swift */; };
+		8FCC8888DE385DCD562D4D0D /* TripSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF35CA4585757CEAE41D417 /* TripSheet.swift */; };
+		F1A2B3C4D5E6F708192A3B4D /* HelpFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A2B3C4D5E6F708192A3B4C /* HelpFeatures.swift */; };
+		A91C0E77B4D24F18A6E5C302 /* SurviveLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C0E77B4D24F18A6E5C301 /* SurviveLogo.swift */; };
+		C4A10C001A5E7B9D2F6E8A02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A10C001A5E7B9D2F6E8A01 /* Assets.xcassets */; };
+		C4A10C001A5E7B9D2F6E8A12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A10C001A5E7B9D2F6E8A11 /* Assets.xcassets */; };
+		A91C0E77B4D24F18A6E5C303 /* SurviveLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C0E77B4D24F18A6E5C301 /* SurviveLogo.swift */; };
+		95A0F99661A7F03304F93EFB /* ScoreNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFD8ABD9110DE061D614F9D /* ScoreNote.swift */; };
+		A568D3255DFFBF322511B397 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7204933680344556B09DA /* APIModels.swift */; };
+		A8834232B03B5296D59BE9ED /* MapMiamiLogicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB5BB08F3CB068FB1CC016 /* MapMiamiLogicTests.swift */; };
+		B16F6E0E2A1377FF06AB813C /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B24EA499229C97A5DC00E /* APIClient.swift */; };
+		B57A311B386A3F253E39EA7A /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00713A45793546D7643D19F /* MapScreen.swift */; };
+		A7E4C91B2D6F4A18B0C3E5D2 /* RouteGuidance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E4C91B2D6F4A18B0C3E5D1 /* RouteGuidance.swift */; };
+		A7E4C91B2D6F4A18B0C3E5D3 /* RouteGuidance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E4C91B2D6F4A18B0C3E5D1 /* RouteGuidance.swift */; };
+		B8F5DA2C3E704B29C1D4F6E3 /* NavigationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F5DA2C3E704B29C1D4F6E2 /* NavigationScreen.swift */; };
+		B5F2A54398CBE1F364752A0B /* FloodTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52446CD178016436D49DFE3C /* FloodTimeline.swift */; };
+		BC92585ABCDD91B930BC3572 /* TripPlanning.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9F21F9F91C6C6889A7C9A /* TripPlanning.swift */; };
+		C4ED15EB0EACA83CD21837F3 /* TripPlanning.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9F21F9F91C6C6889A7C9A /* TripPlanning.swift */; };
+		C5910CE42E202DCEE811A824 /* CarPlayMapPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B400AF1E40E0F23FCA8B9956 /* CarPlayMapPanel.swift */; };
+		C5D4BD24687573C5818EA014 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7204933680344556B09DA /* APIModels.swift */; };
+		CA17648E35F2868C307F866B /* ScoreNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFD8ABD9110DE061D614F9D /* ScoreNote.swift */; };
+		CA44259800321CA6AA5B716D /* ScoreNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFD8ABD9110DE061D614F9D /* ScoreNote.swift */; };
+		D4E8E1B58A9C65C3538BBC98 /* FloodStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6583C337343C41D9282E274A /* FloodStatusView.swift */; };
+		D624D86A358CED11C3DB9454 /* TripStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B69612F0778DC2F2EA78725 /* TripStore.swift */; };
+		D6844327A808BF94DB6C3251 /* WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDA3C369AE9D17893482262 /* WatchApp.swift */; };
+		D8C43E01DB983A310D37199C /* TripLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4320EED90A0C1BA510CD5EB6 /* TripLiveActivity.swift */; };
+		DCDE43FC415C550B92BBEABC /* FloodStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6583C337343C41D9282E274A /* FloodStatusView.swift */; };
+		DE8D888E846D21DF4859E091 /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92767010CECCAB8BBB5DA5AD /* JSONValue.swift */; };
+		DF20A8350FE02BB98DEF9094 /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92767010CECCAB8BBB5DA5AD /* JSONValue.swift */; };
+		E6DD06581D95C2DDE75EE081 /* ScoreNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFD8ABD9110DE061D614F9D /* ScoreNote.swift */; };
+		E81D734CA5F7B8555B567DCE /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B24EA499229C97A5DC00E /* APIClient.swift */; };
+		E9110E17CD04A5F7A3F67EF1 /* FloodStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6583C337343C41D9282E274A /* FloodStatusView.swift */; };
+		ED01B075757638014D84B7C8 /* ScoreNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFD8ABD9110DE061D614F9D /* ScoreNote.swift */; };
+		EDCB58653EB04F8BB64933D6 /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92767010CECCAB8BBB5DA5AD /* JSONValue.swift */; };
+		F26B037D311A2FD4A541677F /* MapMiamiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38692FC43537A8339BE7CEFE /* MapMiamiApp.swift */; };
+		F9927E34FB40135BF5340980 /* MapMiamiWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EE18040E9CD3369A01C96271 /* MapMiamiWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FF192C2D1AB61B94BB935DC5 /* TripPlanning.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB9F21F9F91C6C6889A7C9A /* TripPlanning.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4171BE90C70122A0A4618FCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8C0A480D8ABA66B1B5F9358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B131906A40DE073C32DCB2C4;
+			remoteInfo = MapMiamiWatch;
+		};
+		832703CF8FCD8658A6F7D273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8C0A480D8ABA66B1B5F9358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65809CC80CC6E98BEE5F6052;
+			remoteInfo = MapMiamiWatchWidgets;
+		};
+		9D9C53CE527711878B6E0D35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8C0A480D8ABA66B1B5F9358 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 135E84C79E1064B59BDC50DC;
+			remoteInfo = MapMiamiWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6C60B48B662DF0D4D8A8DCCB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F9927E34FB40135BF5340980 /* MapMiamiWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99ECFCE38DF7921AC14426D4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				39817789A98C87B17A84D96E /* MapMiamiWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A255D841496FE36D8ADAB5DD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3E38EA9720CAA6E3E8207BCB /* MapMiamiWatchWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0024C1F806B5295380DF6773 /* CompareRoutesIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareRoutesIntent.swift; sourceTree = "<group>"; };
+		015C36C24AE3A840858FBA0A /* MapMiamiTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper; path = MapMiamiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0673FE01D4820AA41E8AD8B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+				38692FC43537A8339BE7CEFE /* MapMiamiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMiamiApp.swift; sourceTree = "<group>"; };
+				F1A2B3C4D5E6F708192A3B4C /* HelpFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpFeatures.swift; sourceTree = "<group>"; };
+		4320EED90A0C1BA510CD5EB6 /* TripLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripLiveActivity.swift; sourceTree = "<group>"; };
+		456B20D90DAAA37C6A14485C /* PlaceSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSearch.swift; sourceTree = "<group>"; };
+		4B69612F0778DC2F2EA78725 /* TripStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripStore.swift; sourceTree = "<group>"; };
+		4BF35CA4585757CEAE41D417 /* TripSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripSheet.swift; sourceTree = "<group>"; };
+		A91C0E77B4D24F18A6E5C301 /* SurviveLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurviveLogo.swift; sourceTree = "<group>"; };
+		C4A10C001A5E7B9D2F6E8A01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4A10C001A5E7B9D2F6E8A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CAD7863706DDE15C07376B0 /* MapMiami.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MapMiami.entitlements; sourceTree = "<group>"; };
+		52446CD178016436D49DFE3C /* FloodTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodTimeline.swift; sourceTree = "<group>"; };
+		568FCD0091D09C8946C4965E /* MapMiamiWatchWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MapMiamiWatchWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6583C337343C41D9282E274A /* FloodStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodStatusView.swift; sourceTree = "<group>"; };
+		6D2A1BB91C15E6C26A2FB448 /* MapMiami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapMiami.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFBF398837237312E636296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7E3730F812896A2C07D8DDF6 /* MapMiamiWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.extensionkit-extension"; path = MapMiamiWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		804FBEB4E2E3A8E6C846D642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8C24306B54C54CEE907B31D4 /* WatchFloodWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchFloodWidget.swift; sourceTree = "<group>"; };
+		92767010CECCAB8BBB5DA5AD /* JSONValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONValue.swift; sourceTree = "<group>"; };
+		A4B5740464D2CD5517C2E568 /* TripActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripActivity.swift; sourceTree = "<group>"; };
+		A7FB5BB08F3CB068FB1CC016 /* MapMiamiLogicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMiamiLogicTests.swift; sourceTree = "<group>"; };
+		AFFD8ABD9110DE061D614F9D /* ScoreNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreNote.swift; sourceTree = "<group>"; };
+		B00713A45793546D7643D19F /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		A7E4C91B2D6F4A18B0C3E5D1 /* RouteGuidance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteGuidance.swift; sourceTree = "<group>"; };
+		B8F5DA2C3E704B29C1D4F6E2 /* NavigationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationScreen.swift; sourceTree = "<group>"; };
+		B3CE36070870002DF2537098 /* CarPlayScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayScene.swift; sourceTree = "<group>"; };
+		B400AF1E40E0F23FCA8B9956 /* CarPlayMapPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayMapPanel.swift; sourceTree = "<group>"; };
+		B6644067CAF7F4AA113CDB38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C8F7204933680344556B09DA /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
+		D8F98ED07B9774B6F6012C59 /* LiveTripPlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTripPlanner.swift; sourceTree = "<group>"; };
+		EE18040E9CD3369A01C96271 /* MapMiamiWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapMiamiWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEED8EE16DC271F452AB0564 /* FloodWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodWidget.swift; sourceTree = "<group>"; };
+		F0ED51FBA9815AD81C9A5BC2 /* MapMiamiWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMiamiWidgets.swift; sourceTree = "<group>"; };
+		FBB9F21F9F91C6C6889A7C9A /* TripPlanning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPlanning.swift; sourceTree = "<group>"; };
+		FC8B24EA499229C97A5DC00E /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		FCDA3C369AE9D17893482262 /* WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		12D9AF611B48E7AB19AC4B83 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FC8B24EA499229C97A5DC00E /* APIClient.swift */,
+				C8F7204933680344556B09DA /* APIModels.swift */,
+				6583C337343C41D9282E274A /* FloodStatusView.swift */,
+				52446CD178016436D49DFE3C /* FloodTimeline.swift */,
+				92767010CECCAB8BBB5DA5AD /* JSONValue.swift */,
+				AFFD8ABD9110DE061D614F9D /* ScoreNote.swift */,
+				A4B5740464D2CD5517C2E568 /* TripActivity.swift */,
+				FBB9F21F9F91C6C6889A7C9A /* TripPlanning.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		490E9930DE0814C06842D85C /* MapMiamiWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				EEED8EE16DC271F452AB0564 /* FloodWidget.swift */,
+				7CFBF398837237312E636296 /* Info.plist */,
+				F0ED51FBA9815AD81C9A5BC2 /* MapMiamiWidgets.swift */,
+				4320EED90A0C1BA510CD5EB6 /* TripLiveActivity.swift */,
+			);
+			path = MapMiamiWidgets;
+			sourceTree = "<group>";
+		};
+		5224EE23CD178B9E5079209C /* MapMiami */ = {
+			isa = PBXGroup;
+			children = (
+				C4A10C001A5E7B9D2F6E8A01 /* Assets.xcassets */,
+				B400AF1E40E0F23FCA8B9956 /* CarPlayMapPanel.swift */,
+				B3CE36070870002DF2537098 /* CarPlayScene.swift */,
+				0024C1F806B5295380DF6773 /* CompareRoutesIntent.swift */,
+				B6644067CAF7F4AA113CDB38 /* Info.plist */,
+				D8F98ED07B9774B6F6012C59 /* LiveTripPlanner.swift */,
+				4CAD7863706DDE15C07376B0 /* MapMiami.entitlements */,
+				38692FC43537A8339BE7CEFE /* MapMiamiApp.swift */,
+				F1A2B3C4D5E6F708192A3B4C /* HelpFeatures.swift */,
+				B00713A45793546D7643D19F /* MapScreen.swift */,
+				B8F5DA2C3E704B29C1D4F6E2 /* NavigationScreen.swift */,
+				456B20D90DAAA37C6A14485C /* PlaceSearch.swift */,
+				A7E4C91B2D6F4A18B0C3E5D1 /* RouteGuidance.swift */,
+				A91C0E77B4D24F18A6E5C301 /* SurviveLogo.swift */,
+				4BF35CA4585757CEAE41D417 /* TripSheet.swift */,
+				4B69612F0778DC2F2EA78725 /* TripStore.swift */,
+			);
+			path = MapMiami;
+			sourceTree = "<group>";
+		};
+		8A8ACB16E5791FEFF307EB11 /* MapMiamiWatch */ = {
+			isa = PBXGroup;
+			children = (
+				C4A10C001A5E7B9D2F6E8A11 /* Assets.xcassets */,
+				804FBEB4E2E3A8E6C846D642 /* Info.plist */,
+				FCDA3C369AE9D17893482262 /* WatchApp.swift */,
+			);
+			path = MapMiamiWatch;
+			sourceTree = "<group>";
+		};
+		97DBFDBC64E7E2F457159473 /* MapMiamiTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7FB5BB08F3CB068FB1CC016 /* MapMiamiLogicTests.swift */,
+			);
+			path = MapMiamiTests;
+			sourceTree = "<group>";
+		};
+		9C30230B229732C6B033D588 /* MapMiamiWatchWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				0673FE01D4820AA41E8AD8B7 /* Info.plist */,
+				8C24306B54C54CEE907B31D4 /* WatchFloodWidget.swift */,
+			);
+			path = MapMiamiWatchWidgets;
+			sourceTree = "<group>";
+		};
+		B9A5461D75342BD30A95BA60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D2A1BB91C15E6C26A2FB448 /* MapMiami.app */,
+				015C36C24AE3A840858FBA0A /* MapMiamiTests.xctest */,
+				EE18040E9CD3369A01C96271 /* MapMiamiWatch.app */,
+				568FCD0091D09C8946C4965E /* MapMiamiWatchWidgets.appex */,
+				7E3730F812896A2C07D8DDF6 /* MapMiamiWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D46213C4F255EB9B41B22544 = {
+			isa = PBXGroup;
+			children = (
+				5224EE23CD178B9E5079209C /* MapMiami */,
+				97DBFDBC64E7E2F457159473 /* MapMiamiTests */,
+				8A8ACB16E5791FEFF307EB11 /* MapMiamiWatch */,
+				9C30230B229732C6B033D588 /* MapMiamiWatchWidgets */,
+				490E9930DE0814C06842D85C /* MapMiamiWidgets */,
+				12D9AF611B48E7AB19AC4B83 /* Shared */,
+				B9A5461D75342BD30A95BA60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		135E84C79E1064B59BDC50DC /* MapMiamiWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23CEA3AFC05C6A9E29214A1 /* Build configuration list for PBXNativeTarget "MapMiamiWidgets" */;
+			buildPhases = (
+				DD66B587C1BB3CE987A21990 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapMiamiWidgets;
+			packageProductDependencies = (
+			);
+			productName = MapMiamiWidgets;
+			productReference = 7E3730F812896A2C07D8DDF6 /* MapMiamiWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1ED4353D32EF1240C26449F4 /* MapMiamiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 192A1E999B67C73E720795F6 /* Build configuration list for PBXNativeTarget "MapMiamiTests" */;
+			buildPhases = (
+				88AC372BFD403CEC46AF5E2C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapMiamiTests;
+			packageProductDependencies = (
+			);
+			productName = MapMiamiTests;
+			productReference = 015C36C24AE3A840858FBA0A /* MapMiamiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51FFEA3AE8257BFEACEAF512 /* MapMiami */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3555F99DEC3842F1C6DFF8E8 /* Build configuration list for PBXNativeTarget "MapMiami" */;
+			buildPhases = (
+				BD59ED01C910DD4646E85F9D /* Sources */,
+				C4A10C001A5E7B9D2F6E8A03 /* Resources */,
+				99ECFCE38DF7921AC14426D4 /* Embed Foundation Extensions */,
+				6C60B48B662DF0D4D8A8DCCB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				421AD85C1F31E43FC9733D29 /* PBXTargetDependency */,
+				DD89FCBE334FC09CAA5269FB /* PBXTargetDependency */,
+			);
+			name = MapMiami;
+			packageProductDependencies = (
+			);
+			productName = MapMiami;
+			productReference = 6D2A1BB91C15E6C26A2FB448 /* MapMiami.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65809CC80CC6E98BEE5F6052 /* MapMiamiWatchWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B30645FDABBD885E4134237A /* Build configuration list for PBXNativeTarget "MapMiamiWatchWidgets" */;
+			buildPhases = (
+				9B6367353E48C8DA6716D1E4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapMiamiWatchWidgets;
+			packageProductDependencies = (
+			);
+			productName = MapMiamiWatchWidgets;
+			productReference = 568FCD0091D09C8946C4965E /* MapMiamiWatchWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B131906A40DE073C32DCB2C4 /* MapMiamiWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59422E4E437DD27445A6088D /* Build configuration list for PBXNativeTarget "MapMiamiWatch" */;
+			buildPhases = (
+				22F0BE2BBA1C134BCCAB54C8 /* Sources */,
+				C4A10C001A5E7B9D2F6E8A13 /* Resources */,
+				A255D841496FE36D8ADAB5DD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A703C9A89E4C8746B131D17F /* PBXTargetDependency */,
+			);
+			name = MapMiamiWatch;
+			packageProductDependencies = (
+			);
+			productName = MapMiamiWatch;
+			productReference = EE18040E9CD3369A01C96271 /* MapMiamiWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8C0A480D8ABA66B1B5F9358 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					135E84C79E1064B59BDC50DC = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					1ED4353D32EF1240C26449F4 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					51FFEA3AE8257BFEACEAF512 = {
+						ProvisioningStyle = Automatic;
+					};
+					65809CC80CC6E98BEE5F6052 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					B131906A40DE073C32DCB2C4 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 571996B746173544699F7F40 /* Build configuration list for PBXProject "MapMiami" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D46213C4F255EB9B41B22544;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B9A5461D75342BD30A95BA60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51FFEA3AE8257BFEACEAF512 /* MapMiami */,
+				1ED4353D32EF1240C26449F4 /* MapMiamiTests */,
+				B131906A40DE073C32DCB2C4 /* MapMiamiWatch */,
+				65809CC80CC6E98BEE5F6052 /* MapMiamiWatchWidgets */,
+				135E84C79E1064B59BDC50DC /* MapMiamiWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4A10C001A5E7B9D2F6E8A03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A10C001A5E7B9D2F6E8A02 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A10C001A5E7B9D2F6E8A13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A10C001A5E7B9D2F6E8A12 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22F0BE2BBA1C134BCCAB54C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81D734CA5F7B8555B567DCE /* APIClient.swift in Sources */,
+				0E8EA9E2041FF662F0479906 /* APIModels.swift in Sources */,
+				E9110E17CD04A5F7A3F67EF1 /* FloodStatusView.swift in Sources */,
+				5F265D976C7AB35F2CD3E6C7 /* JSONValue.swift in Sources */,
+				CA44259800321CA6AA5B716D /* ScoreNote.swift in Sources */,
+				FF192C2D1AB61B94BB935DC5 /* TripPlanning.swift in Sources */,
+				A91C0E77B4D24F18A6E5C303 /* SurviveLogo.swift in Sources */,
+				D6844327A808BF94DB6C3251 /* WatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88AC372BFD403CEC46AF5E2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16F6E0E2A1377FF06AB813C /* APIClient.swift in Sources */,
+				00E71147DF716FFD8C2E6293 /* APIModels.swift in Sources */,
+				2630E9641CF9AC4D01CFD351 /* JSONValue.swift in Sources */,
+				A8834232B03B5296D59BE9ED /* MapMiamiLogicTests.swift in Sources */,
+				A7E4C91B2D6F4A18B0C3E5D3 /* RouteGuidance.swift in Sources */,
+				CA17648E35F2868C307F866B /* ScoreNote.swift in Sources */,
+				C4ED15EB0EACA83CD21837F3 /* TripPlanning.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6367353E48C8DA6716D1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A4FE429604C387FD6610C2 /* APIClient.swift in Sources */,
+				C5D4BD24687573C5818EA014 /* APIModels.swift in Sources */,
+				7DADDFD8E62F9DCB3883F78D /* FloodStatusView.swift in Sources */,
+				29E0D4EC9DDBD1C49745A0B0 /* FloodTimeline.swift in Sources */,
+				DF20A8350FE02BB98DEF9094 /* JSONValue.swift in Sources */,
+				95A0F99661A7F03304F93EFB /* ScoreNote.swift in Sources */,
+				5A68493E0CFFAF5738F19071 /* TripPlanning.swift in Sources */,
+				79B10170E26F454C44EAFBE6 /* WatchFloodWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD59ED01C910DD4646E85F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D1FF38C53EF7F70AC33403 /* APIClient.swift in Sources */,
+				52A9DA9E63A49F98CB81587C /* APIModels.swift in Sources */,
+				C5910CE42E202DCEE811A824 /* CarPlayMapPanel.swift in Sources */,
+				78EA7499D70BB4DD174C9C1C /* CarPlayScene.swift in Sources */,
+				101F67B8E06D09D80ED1C50D /* CompareRoutesIntent.swift in Sources */,
+				D4E8E1B58A9C65C3538BBC98 /* FloodStatusView.swift in Sources */,
+				DE8D888E846D21DF4859E091 /* JSONValue.swift in Sources */,
+				6892446372E051F3D54270BA /* LiveTripPlanner.swift in Sources */,
+				F1A2B3C4D5E6F708192A3B4D /* HelpFeatures.swift in Sources */,
+				F26B037D311A2FD4A541677F /* MapMiamiApp.swift in Sources */,
+				B57A311B386A3F253E39EA7A /* MapScreen.swift in Sources */,
+				B8F5DA2C3E704B29C1D4F6E3 /* NavigationScreen.swift in Sources */,
+				A7E4C91B2D6F4A18B0C3E5D2 /* RouteGuidance.swift in Sources */,
+				75661CB8AC3A1756CF416A04 /* PlaceSearch.swift in Sources */,
+				E6DD06581D95C2DDE75EE081 /* ScoreNote.swift in Sources */,
+				350F9803B575B56DC1E9FAFD /* TripActivity.swift in Sources */,
+				BC92585ABCDD91B930BC3572 /* TripPlanning.swift in Sources */,
+				A91C0E77B4D24F18A6E5C302 /* SurviveLogo.swift in Sources */,
+				8FCC8888DE385DCD562D4D0D /* TripSheet.swift in Sources */,
+				D624D86A358CED11C3DB9454 /* TripStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD66B587C1BB3CE987A21990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EB6CBE4834660BCBC3CBB6 /* APIClient.swift in Sources */,
+				A568D3255DFFBF322511B397 /* APIModels.swift in Sources */,
+				DCDE43FC415C550B92BBEABC /* FloodStatusView.swift in Sources */,
+				B5F2A54398CBE1F364752A0B /* FloodTimeline.swift in Sources */,
+				1E644F5F5668961D88F88649 /* FloodWidget.swift in Sources */,
+				EDCB58653EB04F8BB64933D6 /* JSONValue.swift in Sources */,
+				378D95B40BA18AB296085055 /* MapMiamiWidgets.swift in Sources */,
+				ED01B075757638014D84B7C8 /* ScoreNote.swift in Sources */,
+				61BA3B448DF0267AFC3C2BA4 /* TripActivity.swift in Sources */,
+				D8C43E01DB983A310D37199C /* TripLiveActivity.swift in Sources */,
+				113931BEC92ED6521AFAD001 /* TripPlanning.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		421AD85C1F31E43FC9733D29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 135E84C79E1064B59BDC50DC /* MapMiamiWidgets */;
+			targetProxy = 9D9C53CE527711878B6E0D35 /* PBXContainerItemProxy */;
+		};
+		A703C9A89E4C8746B131D17F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65809CC80CC6E98BEE5F6052 /* MapMiamiWatchWidgets */;
+			targetProxy = 832703CF8FCD8658A6F7D273 /* PBXContainerItemProxy */;
+		};
+		DD89FCBE334FC09CAA5269FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B131906A40DE073C32DCB2C4 /* MapMiamiWatch */;
+			targetProxy = 4171BE90C70122A0A4618FCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06AC123B4B3715AD83AA6379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.mapmiami.ios.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "";
+			};
+			name = Debug;
+		};
+		123545995049F5C300E0FBF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapMiamiWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Survive Miami";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = app.mapmiami.ios;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = app.mapmiami.ios.watch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		35FC445D44CDEEBCF6E7C8EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7862JJJ2V4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		45A8D639E66CCE164A404062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapMiamiWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Survive Miami";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.mapmiami.ios.widgets;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B025FEB5263615C0BEF6C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7862JJJ2V4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapMiami/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Survive Miami";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Survive Miami uses your location for the start of a drive, live weather alerts, nearby emergency resources, and guidance along a route.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = LaunchBackground;
+				INFOPLIST_KEY_UILaunchScreen_UIImageName = LaunchLogo;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.mapmiami.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AA112D695FCABE726DDC9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapMiamiWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Survive Miami";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.mapmiami.ios.widgets;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5FF158979319F55BDBE84A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapMiamiWatchWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Miami flood alert";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.mapmiami.ios.watch.widgets;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		898404C1C942C593A634A556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapMiamiWatchWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Miami flood alert";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.mapmiami.ios.watch.widgets;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		8E3EDB21CBBE48A9499DF0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7862JJJ2V4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapMiami/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Survive Miami";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Survive Miami uses your location for the start of a drive, live weather alerts, nearby emergency resources, and guidance along a route.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = LaunchBackground;
+				INFOPLIST_KEY_UILaunchScreen_UIImageName = LaunchLogo;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.mapmiami.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A617013421DC993354C9A71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.mapmiami.ios.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "";
+			};
+			name = Release;
+		};
+		C0F6C8338891C72BFA38F26E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7862JJJ2V4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		C6686F4EB4AFB64236B2303B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapMiamiWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Survive Miami";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = app.mapmiami.ios;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = app.mapmiami.ios.watch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		192A1E999B67C73E720795F6 /* Build configuration list for PBXNativeTarget "MapMiamiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06AC123B4B3715AD83AA6379 /* Debug */,
+				A617013421DC993354C9A71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3555F99DEC3842F1C6DFF8E8 /* Build configuration list for PBXNativeTarget "MapMiami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B025FEB5263615C0BEF6C64 /* Debug */,
+				8E3EDB21CBBE48A9499DF0E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		571996B746173544699F7F40 /* Build configuration list for PBXProject "MapMiami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35FC445D44CDEEBCF6E7C8EE /* Debug */,
+				C0F6C8338891C72BFA38F26E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		59422E4E437DD27445A6088D /* Build configuration list for PBXNativeTarget "MapMiamiWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6686F4EB4AFB64236B2303B /* Debug */,
+				123545995049F5C300E0FBF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B30645FDABBD885E4134237A /* Build configuration list for PBXNativeTarget "MapMiamiWatchWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898404C1C942C593A634A556 /* Debug */,
+				5FF158979319F55BDBE84A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E23CEA3AFC05C6A9E29214A1 /* Build configuration list for PBXNativeTarget "MapMiamiWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A8D639E66CCE164A404062 /* Debug */,
+				5AA112D695FCABE726DDC9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8C0A480D8ABA66B1B5F9358 /* Project object */;
+}

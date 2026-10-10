@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 520" role="img" aria-label="Survive Miami">
+  <rect width="440" height="520" fill="#0B1C33"/>
+  <g fill="none" stroke="#F07850" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="18" pathLength="1" d="M 312.99 117.35 A 118.00 118.00 0 1 1 109.12 230.36"/>
+    <path stroke-width="18" pathLength="1" d="M 104.58 165.47 A 118.00 118.00 0 0 1 267.99 82.20"/>
+    <path stroke-width="12" pathLength="1" d="M 133.40 140.00 A 100.00 100.00 0 0 1 296.60 125.72"/>
+    <path stroke-width="12" pathLength="1" d="M 159.58 131.65 A 84.00 84.00 0 0 1 273.99 125.65"/>
+    <path stroke-width="8" pathLength="1" d="M 220.00 170.00 L 220.00 132.00"/>
+    <path stroke-width="8" pathLength="1" d="M 234.14 175.86 L 261.01 148.99"/>
+    <path stroke-width="8" pathLength="1" d="M 240.00 190.00 L 278.00 190.00"/>
+    <path stroke-width="8" pathLength="1" d="M 234.14 204.14 L 261.01 231.01"/>
+    <path stroke-width="8" pathLength="1" d="M 205.86 204.14 L 178.99 231.01"/>
+    <path stroke-width="8" pathLength="1" d="M 200.00 190.00 L 162.00 190.00"/>
+    <path stroke-width="8" pathLength="1" d="M 205.86 175.86 L 178.99 148.99"/>
+    <circle cx="220" cy="190" r="16" stroke-width="8" pathLength="1"/>
+    <circle cx="220" cy="190" r="6.5" stroke-width="6" pathLength="1"/>
+    <circle cx="220" cy="119" r="9" stroke-width="7" pathLength="1"/>
+    <circle cx="270.20" cy="139.80" r="9" stroke-width="7" pathLength="1"/>
+    <circle cx="291" cy="190" r="9" stroke-width="7" pathLength="1"/>
+    <circle cx="270.20" cy="240.20" r="9" stroke-width="7" pathLength="1"/>
+    <circle cx="169.80" cy="240.20" r="9" stroke-width="7" pathLength="1"/>
+    <circle cx="149" cy="190" r="9" stroke-width="7" pathLength="1"/>
+    <circle cx="169.80" cy="139.80" r="9" stroke-width="7" pathLength="1"/>
+    <path stroke-width="9" pathLength="1" d="M 209 206 L 174 286"/>
+    <path stroke-width="9" pathLength="1" d="M 231 206 L 266 286"/>
+    <path stroke-width="9" pathLength="1" d="M 152 286 L 194 286"/>
+    <path stroke-width="9" pathLength="1" d="M 246 286 L 288 286"/>
+    <circle cx="291.71" cy="91.30" r="14" fill="#F07850" stroke="#F07850" stroke-width="8" pathLength="1"/>
+    <circle cx="297.29" cy="120.41" r="4.5" fill="#F07850" stroke="#F07850" stroke-width="5" pathLength="1"/>
+  </g>
+  <text x="220" y="390" text-anchor="middle" fill="#FFFFFF" font-family="Outfit, Arial, sans-serif" font-size="48" font-weight="800">Survive Miami</text>
+  <text x="220" y="432" text-anchor="middle" fill="#F07850" font-family="Outfit, Arial, sans-serif" font-size="18" font-weight="500" letter-spacing="2.4">Live the Miami Life.</text>
+</svg>

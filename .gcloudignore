@@ -1,0 +1,14 @@
+.git
+.gcloudignore
+.env
+.env.*
+backend/.venv/
+backend/data/
+web/node_modules/
+web/dist/
+ios/
+**/.pytest_cache/
+**/__pycache__/
+*.sqlite
+firebase-debug.log
+*.log
